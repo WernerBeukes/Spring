@@ -5,14 +5,14 @@
 
 <html>
     <head>
-        <title>Tiles Example</title>
+        <tiles:insertAttribute name="imports" />
     </head>
     <body>
-        <ul>
-            <li><tiles:insertAttribute name="header" /></li>
-            <li><tiles:insertAttribute name="menu" /></li>
-            <li><tiles:insertAttribute name="body" /></li>
-            <li><tiles:insertAttribute name="footer" /></li>
-        </ul>
+        <div>
+            <span><tiles:insertAttribute name="header" /></span>
+            <span><tiles:insertAttribute name="menu" /></span>
+            <span><tiles:insertAttribute name="body" /></span>
+            <span><tiles:insertAttribute name="footer" /></span>
+        </div>
     </body>
 </html>

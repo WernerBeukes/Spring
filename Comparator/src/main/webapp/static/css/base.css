@@ -1,0 +1,122 @@
+/* Margin Defaults */
+/* Header Constants */
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.clear {
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 545px) {
+  /* Margin Defaults */
+  /* Header Constants */
+  header {
+    height: 172px;
+    border-bottom: #af7008 solid thick;
+  }
+  header .img-responsive {
+    margin: 10px auto;
+  }
+  header .search-input {
+    margin: 10px auto;
+    width: 250px;
+  }
+  header .search-input .input-lg {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+@media (min-width: 546px) {
+  /* Margin Defaults */
+  /* Header Constants */
+  header {
+    height: 126px;
+    border-bottom: #af7008 solid thick;
+  }
+  header .img-responsive {
+    margin: 10px;
+    display: inline;
+    float: left;
+  }
+  header .search-input {
+    margin: 63px 10px 10px 10px;
+    float: right;
+  }
+  header .search-input .input-lg {
+    width: 250px;
+    border-radius: 0px;
+  }
+
+  article .ItemsDisplay .row {
+    padding: 25px;
+  }
+
+  .CompareList {
+    margin: 10px;
+  }
+  .CompareList .carousel-inner .active.left {
+    left: -33%;
+  }
+  .CompareList .carousel-inner .next {
+    left: 33%;
+  }
+  .CompareList .carousel-inner .prev {
+    left: -33%;
+  }
+  .CompareList .carousel-control .left {
+    background-image: none;
+  }
+  .CompareList .carousel-control .right {
+    background-image: none;
+  }
+
+  .product-space {
+    width: 220px;
+    display: inline-block;
+    margin: 5px;
+  }
+  .product-space :hover {
+    cursor: pointer;
+  }
+  .product-space .thumbnail {
+    padding: 0px;
+    border-radius: 0px;
+    overflow-y: hidden;
+  }
+  .product-space .thumbnail #itemPaneInfo .product-name {
+    overflow: hidden;
+    padding: 0px 10px;
+  }
+  .product-space .thumbnail #itemPaneInfo .ratings {
+    padding: 0px 10px;
+    color: #d17581;
+  }
+  .product-space .thumbnail #itemPaneInfo .ratings .review-count {
+    margin: 3px 0px 3px 0px;
+  }
+  .product-space .thumbnail #itemPaneInfo .ratings h4 {
+    white-space: nowrap;
+    color: #000000;
+    margin: -3px 3px 5px 3px;
+  }
+  .product-space .thumbnail #itemPaneInfo img {
+    width: 200px;
+    height: 150px;
+    margin: 10px 9px;
+  }
+  .product-space .thumbnail .links {
+    padding: 0px 10px;
+  }
+  .product-space .thumbnail .links .btn-primary {
+    width: 100%;
+  }
+}
